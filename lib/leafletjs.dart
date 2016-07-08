@@ -15,6 +15,7 @@ export 'src/path.dart';
 export 'src/path.options.dart';
 export 'src/point.dart';
 export 'src/polyline.dart';
+export 'src/popup.dart';
 export 'src/tile.layer.dart';
 
 

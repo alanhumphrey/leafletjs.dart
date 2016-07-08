@@ -1,6 +1,5 @@
 @JS()
 library leafletjs.marker;
-
 import "package:js/js.dart";
 import 'ilayer.dart';
 import 'lat.lng.dart';
@@ -48,6 +47,16 @@ class Marker extends ILayer {
   ///Updates the marker position, useful if coordinates of its latLng object were changed directly.
   ///
   external Marker update();
+
+  ///
+  /// Binds a popup with HTML markup to this marker.
+  ///
+  external Marker bindPopup(dynamic popup);
+
+  ///
+  ///Opens existing popup
+  ///
+  external Marker openPopup();
 }
 
 @JS()
